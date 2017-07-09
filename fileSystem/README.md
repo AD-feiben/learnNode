@@ -18,7 +18,7 @@ fs.unlink('test', (err) => {
 ```javascript
 const fs = require('fs');
 
-fs.unlinkSync('test');
+fs.unlinkSync('test'); // 进程会阻塞在这里，直至操作完成
 console.log('成功删除 test');
 ```
 

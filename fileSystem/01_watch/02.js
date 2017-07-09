@@ -1,6 +1,9 @@
 const fs = require('fs');
 
-fs.watch('01.txt', (eventType, filename) => {
+var bf = new Buffer('./01.txt');
+
+// 第一个参数传入一个 Buffer
+fs.watch(bf, (eventType, filename) => {
   console.log(`eventType:${eventType}`);
   if (filename) console.log(`filename:${filename}`);
 })

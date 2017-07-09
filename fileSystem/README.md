@@ -23,3 +23,6 @@ console.log('成功删除 test');
 ```
 
 >【注】同步的操作会阻塞进程，直到完成。异步操作不会阻塞进程，但是不能保证执行顺序。
+
+1. [fs.watch](./01_watch)
+1. [fs.watchFile](./02_watchFile)

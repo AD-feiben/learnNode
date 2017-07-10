@@ -1,4 +1,4 @@
-# fs.watchFile
+## fs.watchFile
 
 `fs.watchFile(filename[, options], listener)`
 

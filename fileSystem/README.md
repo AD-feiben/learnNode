@@ -1,4 +1,4 @@
-# File System 文件系统
+## File System 文件系统
 
 NodeJS 提供了 ‘fs’ 模块给我们操作文件以及文件夹，我们可以通过 `require('fs')` 的方式使用该模块。所有的方法都有异步和同步的形式。
 
@@ -24,5 +24,6 @@ console.log('成功删除 test');
 
 >【注】同步的操作会阻塞进程，直到完成。异步操作不会阻塞进程，但是不能保证执行顺序。
 
-1. [fs.watch](./01_watch)
-1. [fs.watchFile](./02_watchFile)
+1. [watch](./01_watch)
+1. [watchFile](./02_watchFile)
+1. [read](./03_read)

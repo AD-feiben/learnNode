@@ -2,7 +2,7 @@
 
 这个方法用于打开文件/文件夹，当我们打开文件成功之后，我们就可以获取文件操作符 fd。
 
-** 异步： `fs.open(path, flags[, mode], callback)` **
+<b>异步： `fs.open(path, flags[, mode], callback)`</b>
 
 &emsp;path: 将要被打开的文件 `<string> | <Buffer> | <URL>`
 
@@ -34,7 +34,7 @@
 
 &emsp;callback: 该函数有两个参数 (err, fd) `<Function>`
 
-** 同步: `fs.openSync(path, flags[, mode])` **
+<b>同步: `fs.openSync(path, flags[, mode])`</b>
 
 这个方法与 fs.open 类似，返回文件操作符 fd
 
@@ -98,13 +98,13 @@ fs.open(path, 'a+', (err, fd) => {
 
 这个方法用在 fs.open 操作完之后调用，用来关闭文件。同样也有 *同步* 和 *异步* 两个方法。
 
-** 异步: `fs.close(fd, callback)`**
+<b>异步: `fs.close(fd, callback)`**
 
 &emsp;fd: fs.open 时获取的文件操作符 fd `<integer>`
 
 &emsp;callback: 回调函数，只有一个可能发生异常的参数 `<Function>`
 
-** 同步: `fs.closeSync(fd)` **
+<b>同步: `fs.closeSync(fd)`</b>
 
 &emsp;该方法返回 `undefined`
 

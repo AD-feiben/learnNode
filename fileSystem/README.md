@@ -26,4 +26,4 @@ console.log('成功删除 test');
 
 1. [watch](./01_watch)
 1. [watchFile](./02_watchFile)
-1. [read](./03_read)
+1. [open&close](./03_open&close)

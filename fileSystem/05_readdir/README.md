@@ -50,7 +50,7 @@ fs.readdir(path, options, (err, files) => { // ②
   }
 })
 ```
-![run 02.js](../../images/fileSystem_12.png)a
+![run 02.js](../../images/fileSystem_12.png)
 
 > ./02.js 中 ①、② 都将 options 设置为 buffer,从打印的结果也可以看出 files 从原来的 string数组 变为 buffer 数组
 

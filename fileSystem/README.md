@@ -28,3 +28,4 @@ console.log('成功删除 test');
 1. [watchFile](./02_watchFile)
 1. [open&close](./03_open&close)
 1. [read](./04_read)
+1. [readdir](./05_readdir)

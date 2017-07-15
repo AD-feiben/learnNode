@@ -1,6 +1,6 @@
 ## fs.open
 
-这个方法用于打开文件/文件夹，当我们打开文件成功之后，我们就可以获取文件操作符 fd。
+这个方法用于打开文件/文件夹，当我们打开文件成功之后，我们就可以获取文件描述符 fd。
 
 <b>异步： `fs.open(path, flags[, mode], callback)`</b>
 
@@ -36,7 +36,7 @@
 
 <b>同步: `fs.openSync(path, flags[, mode])`</b>
 
-这个方法与 fs.open 类似，返回文件操作符 fd
+这个方法与 fs.open 类似，返回文件描述符 fd
 
 ### demo
 ./01.js
@@ -100,7 +100,7 @@ fs.open(path, 'a+', (err, fd) => {
 
 <b>异步: `fs.close(fd, callback)`**
 
-&emsp;fd: fs.open 时获取的文件操作符 fd `<integer>`
+&emsp;fd: fs.open 时获取的文件描述符 fd `<integer>`
 
 &emsp;callback: 回调函数，只有一个可能发生异常的参数 `<Function>`
 

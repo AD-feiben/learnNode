@@ -4,7 +4,7 @@
 
 <b>异步：`fs.read(fd, buffer, offset, length, position, callback)`</b>
 
-&emsp;fd: 从 fs.open 获取文件操作符 fd `<integer>`
+&emsp;fd: 从 fs.open 获取文件描述符 fd `<integer>`
 
 &emsp;buffer: 读取的数据将存到此处 `<Buffer> | <Unit8Array>`
 
